@@ -1,0 +1,14 @@
+/* Manrope bold*/
+@font-face {
+  font-family: "Manrope-bold";
+  src: url("../assets/fonts/manrope-bold.otf");
+  font-weight: 700;
+  font-display: swap;
+}
+/* Manrope medium */
+@font-face {
+  font-family: "Manrope-medium";
+  src: url("../assets/fonts/manrope-medium.otf");
+  font-weight: 500;
+  font-display: swap;
+}
