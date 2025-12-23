@@ -53,7 +53,120 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-800) var(--spacing-300) 6.5rem var(--spacing-300);
+  background: var(--color-gray-200);
+}
 
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  gap: var(--spacing-400);
+
+  width: 32.7rem;
+  height: 53.8rem;
+
+  border-radius: 1rem;
+  background: var(--color-white);
+  box-shadow: 0 4rem 4rem -1rem rgba(201, 213, 225, 05);
+
+  overflow: hidden;
+}
+
+.card .card-img {
+  width: inherit;
+  height: 20rem;
+  background: url("../images/drawers.jpg") lightgray 0px 0px / 100% 100%
+    no-repeat;
+}
+
+.card .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-600);
+
+  padding: 0px 30px 18px 30px;
+}
+
+.card .card-text {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-300);
+}
+.card .card-title {
+  align-self: stretch;
+  color: var(--color-gray-900);
+  font-family: var(--text-preset-1-font-family);
+  font-size: var(--text-preset-1-font-size);
+  font-style: normal;
+  font-weight: 700;
+  line-height: var(--text-preset-1-line-height);
+  letter-spacing: var(--text-preset-1-font-letter-spacing);
+}
+.card .card-paragraph {
+  align-self: stretch;
+  color: var(--color-gray-500);
+  font-family: var(--text-preset-2-font-family);
+  font-size: var(--text-preset-2-font-font-size);
+  font-style: normal;
+  font-weight: 500;
+  line-height: var(--text-preset-2-font-line-height);
+  letter-spacing: 0.016px;
+}
+.card-buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: var(--spacing-800);
+}
+.user-buttons {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-200);
+}
+
+.user-img-profile {
+  width: 4rem;
+  height: 4rem;
+
+  border-radius: 4rem;
+  background: url("../images/avatar-michelle.jpg") lightblue 50% / cover
+    no-repeat;
+}
+/* Common font style for both of user-name & review-date */
+.user-info {
+  font-family: var(--text-preset-2-font-family);
+  font-size: var(--text-preset-2-font-font-size);
+  font-style: normal;
+  font-weight: 500;
+  line-height: var(--text-preset-2-font-line-height);
+  letter-spacing: 0.016px;
+}
+.user-name {
+  align-self: stretch;
+  color: var(--color-gray-900);
+}
+.review-date {
+  align-self: stretch;
+  color: var(--color-gray-400);
+}
+.share-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 3.2rem;
+  height: 3.2rem;
+  background: var(--color-gray-200);
+  border-radius: 4rem;
+  border: unset;
 }
 
 .attribution {
