@@ -94,7 +94,6 @@ body {
 }
 
 .card .card-text {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -111,6 +110,7 @@ body {
   letter-spacing: var(--text-preset-1-font-letter-spacing);
 }
 .card .card-paragraph {
+  width: 33ch;
   align-self: stretch;
   color: var(--color-gray-500);
   font-family: var(--text-preset-2-font-family);
