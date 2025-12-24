@@ -174,10 +174,11 @@ body {
 path {
   transition: fill 0.5s ease-in;
 }
-.dark-background {
+.dark-fill {
   fill: var(--color-gray-500);
 }
-.light-background {
+
+.light-fill {
   fill: var(--color-white);
 }
 .social-buttons {
@@ -194,6 +195,13 @@ path {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  z-index: 1;
+
+  transition: all 0.2s ease-in;
+}
+
+.hidden {
+  z-index: -1;
 }
 .social-meida-icons-wrapper {
   display: flex;
@@ -216,9 +224,6 @@ path {
   display: flex;
   align-items: center;
   gap: var(--spacing-200);
-}
-.hidden {
-  display: none;
 }
 .attribution {
   font-size: 11px;
