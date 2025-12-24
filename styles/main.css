@@ -170,8 +170,17 @@ body {
   border: unset;
   z-index: 10;
 }
+.share-button svg circle,
+path {
+  transition: fill 0.5s ease-in;
+}
+.dark-background {
+  fill: var(--color-gray-500);
+}
+.light-background {
+  fill: var(--color-white);
+}
 .social-buttons {
-  /* display: none; */
   position: absolute;
   width: 100%;
   height: 75px;
@@ -207,6 +216,9 @@ body {
   display: flex;
   align-items: center;
   gap: var(--spacing-200);
+}
+.hidden {
+  display: none;
 }
 .attribution {
   font-size: 11px;
