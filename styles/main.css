@@ -224,6 +224,7 @@ path {
   display: flex;
   align-items: center;
   gap: var(--spacing-200);
+  padding: 0;
 }
 .attribution {
   font-size: 11px;

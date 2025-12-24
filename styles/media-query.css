@@ -1,0 +1,28 @@
+/* Tablelet layout style */
+@media (min-width: 44em) {
+  .card {
+    flex-direction: row;
+    width: 60.8rem;
+    height: 34.6rem;
+  }
+  .card .card-img {
+    height: inherit;
+    background: url("../images/drawers.jpg") lightgray 0px 0px / 122% 100%
+      no-repeat;
+  }
+
+  .card .card-content {
+    padding: 4.1rem 3.6rem 4.1rem 0rem;
+    gap: 2.4rem;
+  }
+  .card .card-buttons {
+    align-self: stretch;
+    justify-content: space-between;
+  }
+}
+
+/* Desktop layout style */
+@media (min-width: 73em) {
+  body {
+  }
+}
