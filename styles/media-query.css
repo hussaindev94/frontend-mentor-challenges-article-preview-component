@@ -37,7 +37,18 @@
 }
 
 /* Desktop layout style */
-@media (min-width: 73em) {
-  body {
+@media (min-width: 63em) {
+  .card {
+    width: 73rem;
+    height: 28rem;
+    gap: 4rem;
+  }
+  .card .social-buttons {
+    top: 52%;
+    right: -9%;
+  }
+  .card .message-like-shape {
+    top: 52%;
+    right: -11%;
   }
 }
