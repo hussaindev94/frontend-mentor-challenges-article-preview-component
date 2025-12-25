@@ -201,7 +201,7 @@ path {
 }
 
 .hidden {
-  z-index: -1;
+  display: none;
 }
 .social-meida-icons-wrapper {
   display: flex;
@@ -225,6 +225,12 @@ path {
   align-items: center;
   gap: var(--spacing-200);
   padding: 0;
+}
+.message-like-shape {
+  display: none;
+}
+.block-display {
+  display: block;
 }
 .attribution {
   font-size: 11px;

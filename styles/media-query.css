@@ -4,6 +4,7 @@
     flex-direction: row;
     width: 60.8rem;
     height: 34.6rem;
+    overflow: visible;
   }
   .card .card-img {
     height: inherit;
@@ -18,6 +19,20 @@
   .card .card-buttons {
     align-self: stretch;
     justify-content: space-between;
+  }
+  .social-buttons {
+    top: 56%;
+    left: unset;
+    right: -11%;
+    width: 24.4rem;
+    height: 5rem;
+    border: unset;
+    border-radius: 1.2rem;
+  }
+  .card .message-like-shape {
+    position: absolute;
+    top: 55%;
+    right: -13%;
   }
 }
 
