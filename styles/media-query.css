@@ -1,5 +1,8 @@
 /* Tablelet layout style */
 @media (min-width: 44em) {
+  body{
+    padding:;
+  }
   .card {
     flex-direction: row;
     width: 60.8rem;
